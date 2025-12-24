@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    @apply bg-gray-200 font-sans;
+    margin: 0;
+  }
+}
+
+/* Base resets or custom variables can go here */
