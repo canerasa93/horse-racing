@@ -27,7 +27,7 @@ export const useRaceStore = defineStore('race', () => {
   // Actions
   const initProgram = () => {
     resetAll();
-    horses.value = generateHorses(); // [cite: 6]
+    horses.value = generateHorses();
     program.value = generateProgram(horses.value);
     results.value = [];
     currentRoundIndex.value = 0;
